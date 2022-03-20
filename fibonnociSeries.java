@@ -1,0 +1,21 @@
+package week1.day1;
+
+public class fibonnociSeries {
+	
+	
+	public static void  main(String[] args)
+{
+		
+		int cv=1;
+		int nv;
+		int pv=0;
+System.out.println("1");
+for(int i=0;i<=30;i++) {
+nv = cv + pv;
+pv=cv;
+cv=nv;
+System.out.println(cv);
+}	
+	
+}
+}
